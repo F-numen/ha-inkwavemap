@@ -5,7 +5,7 @@ HomeAssistantWebAPIUrl="./../../.."
 
 
 // 高德API key
-// 请至高德开放平台http://lbs.amap.com/获取
+// 请至高德开放平台https://console.amap.com/dev/key/app获取
 // (必填)
 GaodeMapKey=""
 
@@ -13,7 +13,7 @@ GaodeMapKey=""
 // 永久Token(HomeAssistant 0.77.2版本以上时可用)
 // HomeAssistant 0.77.2版本以后，HomeAssistant登录后如果未启用记住密码，墨澜地图将无法自行获取Token（配置了正确的LongTimeToken后可以正常使用）
 // 获取方式见：https://bbs.hassbian.com/thread-4695-1-1.html
-// (选填)
+// (选填)注意：Bearer和空格需保留
 LongTimeToken="Bearer "
 
 
