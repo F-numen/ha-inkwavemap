@@ -12,8 +12,9 @@ GaodeMapKey=""
 
 // 永久Token(HomeAssistant 0.77.2版本以上时可用)
 // HomeAssistant 0.77.2版本以后，HomeAssistant登录后如果未启用记住密码，墨澜地图将无法自行获取Token（配置了正确的LongTimeToken后可以正常使用）
-// 获取方式见：https://bbs.hassbian.com/thread-4695-1-1.html
-// (选填)注意：Bearer和空格需保留
+// 获取方式：homeassistant的用户资料中创建令牌即可
+//注意：Bearer和空格需保留
+// (选填)
 LongTimeToken="Bearer "
 
 
