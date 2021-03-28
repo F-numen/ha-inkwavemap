@@ -1,15 +1,11 @@
 # ha-inkwavemap
 [![ha-inkwavemap version](https://img.shields.io/badge/ha--inkwavemap-0.0.4-blue.svg)](https://github.com/cxlwill/ha-inkwavemap)
-   
-![墨澜地图](https://github.com/cxlwill/ha-inkwavemap/blob/master/media/screenshot.jpg)
-
-![iOS](https://github.com/cxlwill/ha-inkwavemap/blob/master/media/ios.jpg)
 
 本项目为 Home Assistant 的定制化中国地图面板。
 
 制作者：[墨澜](https://github.com/cxlwill)， [Mr.Yin](https://github.com/YinHangCode)，[poerts](https://github.com/poerts)
 
-**感谢 poerts 的 PR，本项目已支持最新版 0.77.2 Home Assistant 授权机制。**
+**感谢 poerts 的 PR，本项目已支持最新版 Home Assistant 2021.3.4 。**
 
 ## 简介
 本地化 Home Assistant 的地图面板，实现：
@@ -23,13 +19,13 @@
 - 替代原有图层替换方法，不受 HA 更新影响，一步到位
 
 ## 配置方法
-1. 拷贝 `www` 和 `panels` 文件夹至 Home Assistant 配置文件夹；
+1. 拷贝 `www` 、 `panels` 和`custom_components`文件夹至 Home Assistant 配置文件夹；
 2. 打开 Home Assistant 配置文件 `configuration.yaml`，添加 `sample.yaml` 中的内容；
-3. 修改 `configuration.yaml` 中的默认经纬度为谷歌地球坐标，**注意非地图，是地球**！坐标可至该 [网站](http://www.gpsspg.com/maps.htm) 获取；
-3. 前往 [高德开放平台](http://lbs.amap.com/) 申请开发者身份，创建新应用，**服务类型选择 web 端，注意是 web 端，不是 web 服务！！！** 之后获取 key；
-![Gaode](https://raw.githubusercontent.com/cxlwill/ha-inkwavemap/master/media/gaode.jpg)
-4. 打开 `www/custom_ui/inkwavemap` 中 `config.js` 文件，填入你的 HA 密码以及高德 token。
-5. **清除浏览器缓存，重启 HA。**
+3. 打开 Home Assistant 配置文件 `groups.yaml`，添加`sample_groups.yaml`中的内容；
+4. 修改 `configuration.yaml` 中的默认经纬度为谷歌地球坐标，**注意非地图，是地球**！坐标可至该 [网站](http://www.gpsspg.com/maps.htm) 获取；
+5. 前往 [高德开放平台](http://lbs.amap.com/) 申请开发者身份，创建新应用，**服务类型选择 web 端，注意是 web 端，不是 web 服务！！！** 之后获取 key；
+6. 打开 `www/custom_ui/inkwavemap` 中 `config.js` 文件，填入你的 HA 密码以及高德 token。
+7. **清除浏览器缓存，重启 HA。**
 
 ## 使用 TIP
 
@@ -61,6 +57,9 @@
 出现此问题一般是由于高德 API 申请时选错『服务平台』导致，注意请选择『web 端』，而不是 『web 服务』。
 
 ## 版本更新日志
+### 0.0.4
+1. 支持最新版Homeassistant
+
 ### 0.0.3
 1. 增加路径图示；
 2. 支持新版授权机制。
