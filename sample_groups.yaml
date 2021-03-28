@@ -1,0 +1,5 @@
+gpsgroup:
+    name: gps
+    entities:
+      - device_tracker.p40_2
+      - device_tracker.p10_2
