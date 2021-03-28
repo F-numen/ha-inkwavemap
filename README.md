@@ -5,9 +5,9 @@
 
 制作者：[墨澜](https://github.com/cxlwill)， [Mr.Yin](https://github.com/YinHangCode)，[poerts](https://github.com/poerts)
 
-0.0.4版本修改者：[F-numen](https://github.com/F-numen)
+当前0.0.4版本修改者：[F-numen](https://github.com/F-numen)
 
-**感谢 poerts 的 PR，本项目已支持最新版 Home Assistant 2021.3.4 。**
+**本项目已支持最新版 Home Assistant 2021.3.4 。**
 
 ## 简介
 本地化 Home Assistant 的地图面板，实现：
@@ -42,10 +42,6 @@
 
 ## 适配性
 适配各平台最新版 Chrome 及 Safari 浏览器，适配 iOS Home Assistant 客户端。
-
-## TODO
-- 添加百度地图图层及卫星图层
-~~- 同步 `zone` 信息，生成多个地理围栏~~
 
 ## 常见问题
 **1. 打开地图空白或报错Failed to load resource: net::ERR_CONNECTION_REFUSED**   
