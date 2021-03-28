@@ -1,5 +1,6 @@
 gpsgroup:
     name: gps
     entities:
+    // 添加你的实体名称
       - device_tracker.p40_2
       - device_tracker.p10_2
