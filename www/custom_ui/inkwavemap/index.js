@@ -461,7 +461,7 @@ $(document).on("zoomchange", function() {
 $(document).on("mapInitFinished", function() {
     syncToolbarState(['zoomin', 'zoomout', 'traffic', 'homepoint', 'homerange', 'devicelist']);
 	if (getDataMode == "client"){
-		url = HomeAssistantWebAPIUrl + "/api/states/group.all_devices";
+		url = HomeAssistantWebAPIUrl + "/api/states/group.gpsgroup";
 	}else{
 		url = phpUrl + "?type=getAllDevices";
 	}
