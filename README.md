@@ -1,5 +1,5 @@
 # ha-inkwavemap
-[![ha-inkwavemap version](https://img.shields.io/badge/ha--inkwavemap-0.0.4-blue.svg)](https://github.com/cxlwill/ha-inkwavemap)
+[![ha-inkwavemap version](https://img.shields.io/badge/ha--inkwavemap-0.0.4-blue.svg)](https://github.com/F-numen/ha-inkwavemap)
 
 本项目为 Home Assistant 的定制化中国地图面板。
 
