@@ -1,5 +1,6 @@
-panel_custom:
-  - name: inkwavemap
-    sidebar_title: '墨澜地图'
-    sidebar_icon: mdi:map
-    url_path: inkwavemap
+# 定制化中国地图面板
+panel_iframe:
+  inkwavemap:
+    title: '墨澜地图'
+    icon: mdi:map
+    url: /local/custom_ui/inkwavemap/index.html
