@@ -5,6 +5,8 @@
 
 制作者：[墨澜](https://github.com/cxlwill)， [Mr.Yin](https://github.com/YinHangCode)，[poerts](https://github.com/poerts)
 
+0.0.4版本修改者：[F-numen](https://github.com/F-numen)
+
 **感谢 poerts 的 PR，本项目已支持最新版 Home Assistant 2021.3.4 。**
 
 ## 简介
