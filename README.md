@@ -1,9 +1,9 @@
 # ha-inkwavemap
-[![ha-inkwavemap version](https://img.shields.io/badge/ha--inkwavemap-0.0.3-blue.svg)](https://github.com/cxlwill/ha-inkwavemap)
+[![ha-inkwavemap version](https://img.shields.io/badge/ha--inkwavemap-0.0.4-blue.svg)](https://github.com/cxlwill/ha-inkwavemap)
    
-![墨澜地图](https://raw.githubusercontent.com/cxlwill/ha-inkwavemap/master/media/screenshot.jpg)
+![墨澜地图](https://github.com/cxlwill/ha-inkwavemap/blob/master/media/screenshot.jpg)
 
-![iOS](https://raw.githubusercontent.com/cxlwill/ha-inkwavemap/master/media/ios.jpg)
+![iOS](https://github.com/cxlwill/ha-inkwavemap/blob/master/media/ios.jpg)
 
 本项目为 Home Assistant 的定制化中国地图面板。
 
